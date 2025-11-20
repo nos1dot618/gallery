@@ -1,0 +1,34 @@
+image: python:3.11-slim
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - python --version
+  - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+build_html:
+  stage: build
+  script:
+    - echo "Running python gallery generator..."
+    - python gallary.py
+    - mkdir -p dist
+    - cp index.html dist/
+    - cp -r images dist/
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp -r dist/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    - master
