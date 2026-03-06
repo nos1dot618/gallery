@@ -12,7 +12,7 @@ build_html:
   stage: build
   script:
     - echo "Running python gallery generator..."
-    - python gallary.py
+    - python gallery.py
     - mkdir -p dist
     - cp index.html dist/
     - cp -r images dist/

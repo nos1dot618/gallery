@@ -1,9 +1,9 @@
-> Check out <https://gallary.9th.fun>
+> Check out <https://gallery.9th.fun>
 
 ## Getting Started
 
 ```powershell
-python gallary.py
+python gallery.py
 ```
 
 Open the generated index.html in the browser.
