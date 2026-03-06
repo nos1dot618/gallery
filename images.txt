@@ -1,5 +1,5 @@
-convocation_with_parents.jpg = Convocation with parents 01-01-25
-graduation.jpg = Got the degree 01-01-25
+convocation_with_parents.jpg = Convocation with parents 01-11-25
+graduation.jpg = Got the degree 01-11-25
 me_and_mummy_ji.jpg = Me and Mummy ji
 me_and_mummy_ji_photograph.jpg = Me and Mummy ji again
 me_mummy_ji_and_lil_bro.jpg = Me, Mummy ji and lil Bro
@@ -7,3 +7,5 @@ mummy_ji.jpg = Mummy ji...
 sunset_in_goa.jpg = Sunset, somewhere in Goa
 bois_coming_back_from_goa.jpg = Bois coming back from Goa
 dont_drink_and_slide.jpg = Don't drink and slide
+me_during_my_jagran.jpg = Me at my fifth year Jagran 28-01-09
+me_mummy_ji_and_papa_ji.jpg = Me, Mummy ji and Papa ji
